@@ -1,7 +1,8 @@
 import Link from "next/link";
-import React from 'react'
+import React, { useState } from 'react'
 
 const Login = () => {
+    const [formData , setFormData] = useState<any>({})
   return (
     <div className="mt-10 max-w-md w-full mx-auto rounded-xl md: rounded-2x1 p-4 md:p-8 shadow-input bg-white border border-[#121212] dark:bg-blac">
         <h2 className="font-bold text-center">Login Form</h2>
